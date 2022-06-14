@@ -5,7 +5,8 @@
 }
 
 body { 
-    background-color: blueviolet;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(172,0,226,1) 35%, rgba(0,212,255,1) 100%);
     color: aliceblue;
     font-size: large;
 }
@@ -28,8 +29,8 @@ hr {
 } 
 button { 
     float: right;
-    color: blueviolet; 
-    background-color: rgb(226, 182, 240);
+    color: rgb(0, 55, 255); 
+    background-color: rgb(223, 182, 235);
     font-size:20px;
     cursor: pointer;
     border: 2px solid black;
@@ -84,4 +85,13 @@ p {
 } 
 #two img { 
     height:72%;
+}  
+h1 { 
+    margin-top: 1%;
+}
+#link { 
+   margin-left: 53%;
+}  
+#linky { 
+    margin-left: 50%;
 }
