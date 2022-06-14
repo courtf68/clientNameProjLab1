@@ -1,0 +1,49 @@
+* { 
+    padding:0;
+    margin: 0;
+    border-width: 0;
+}
+
+body { 
+    background-color: blueviolet;
+    color: aliceblue;
+    font-size: large;
+}
+img { 
+    float: inline-end;
+    border-radius: 10%;
+}  
+#yas { 
+    height: 15%;
+    width: 20%;
+    border:2px solid aliceblue ;
+} 
+#port img { 
+    border:2px dotted rgb(226, 182, 240) ;
+   
+}
+hr { 
+    color: aliceblue;
+} 
+button { 
+    float: right;
+    color: blueviolet; 
+    background-color: rgb(226, 182, 240);
+    font-size:20px;
+    cursor: pointer;
+    border: 2px solid black;
+} 
+
+h1,h2,h3 { 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 1%;
+} 
+p { 
+     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+     padding: 1%;
+}
+
+.proj { 
+    border: 1px solid aliceblue;
+    padding-bottom: 10px;
+}
