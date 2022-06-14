@@ -19,11 +19,12 @@ img {
     border:2px solid aliceblue ;
 } 
 #port img { 
-    border:2px dotted rgb(226, 182, 240) ;
+    border:2px dotted rgb(226, 182, 240) ; 
    
 }
 hr { 
     color: aliceblue;
+    size: 10px;
 } 
 button { 
     float: right;
@@ -32,18 +33,55 @@ button {
     font-size:20px;
     cursor: pointer;
     border: 2px solid black;
+    padding: 8px;
+    /* margin: 8px; */
+    
 } 
 
 h1,h2,h3 { 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 1%;
+    margin-left: 10px;
 } 
+h3 { 
+    margin-right: 935.5px;
+    
+}
 p { 
      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-     padding: 1%;
+     padding-bottom: 1%;
+     margin-left: 10px;
 }
 
 .proj { 
     border: 1px solid aliceblue;
     padding-bottom: 10px;
+    padding-left: 60px;
+} 
+#two { 
+   padding-right:18px; 
+}
+#port p { 
+    padding: 1%;
+} 
+#cont { 
+    display: flex;
+    /* align-items: center; */
+    flex: 3;
+    justify-content: left;
+}
+#top { 
+    /* justify-content:space-evenly; */
+    display: flex;
+    
+} 
+#bio {
+    margin-bottom: 1%;
+} 
+.proj p { 
+    margin-top: 10px;
+    margin-bottom: 5px;
+} 
+#two img { 
+    height:72%;
 }
